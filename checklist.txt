@@ -1,0 +1,87 @@
+✅
+Home
+│
+├── Header 
+│   ├── Logo
+│   ├── Navigation Menu (Home | Products | Categories | Contact)
+│   └── Cart Icon (shows item count)
+│
+├── Hero Section
+│   ├── Background Image or Banner
+│   ├── Headline (e.g., "Modern Furniture for Every Home")
+│   └── CTA Button ("Shop Now")
+│
+├── Offer Section
+│   ├── Promotional Message (e.g., "15% Off on Sofas")
+│   └── CTA Button ("Explore Collection")
+│
+├── Categories Section
+│   ├── Category Cards (e.g., Chairs | Tables | Sofas)
+│   └── Each Card → Filters Products
+│
+├── Products Section
+│   ├── Product Cards
+│   │   ├── Product Image
+│   │   ├── Title, Price, Category
+│   │   ├── Add to Cart Button
+│   │   └── Quick View Button
+│   └── Quick View Modal
+│       ├── Large Image
+│       ├── Description, Price
+│       └── Add to Cart Button
+│
+├── Testimonials Section
+│   ├── Customer Reviews (Quote + Name + Image)
+│   └── Optional Carousel Animation
+│
+├── Footer
+│   ├── About / Contact Links
+│   ├── Social Icons
+│   └── Copyright Text
+│
+└── Cart (Accessible from Header Icon)
+    ├── Cart Modal / Slide-Out Panel
+    │   ├── List of Items (Name, Quantity, Price)
+    │   ├── Subtotal
+    │   ├── Remove or Change Quantity
+    │   └── Checkout Button
+    └── Persistent Storage (localStorage)
+
+
+
+
+CHECKLIST
+
+ Header/nav with logo, links, cart icon
+
+ Hero banner with headline + CTA
+
+ Featured collection section (e.g., Chair, Modern)
+
+ Benefits/trust section (icons + text)
+
+ Promotional banner (sale/offer)
+
+ Product grid with cards (image, title, category, price, sale indicator)
+
+ Filter by category (nav or sidebar)
+
+ Search bar functionality
+
+ Quick view modal for product detail
+
+ Add to cart: update count, cart UI
+
+ Slide-out or modal cart with list, quantity adjust, subtotal, checkout button
+
+ Testimonials section
+
+ Footer with contact info/connect links
+
+ Responsive design for mobile/tablet/desktop
+
+ Persistent cart state in localStorage
+
+ Clean, consistent UI (colors/fonts/layout)
+
+ Implementation logic in JS structured & modular
