@@ -43,7 +43,10 @@ html {
 }
 
 h1 {
-  color: var(--color-gray);
+  font-family: var(--font-family-headings);
+  font-weight: 700;
+  color: rgb(15, 23, 42);
+  font-size: var(--size-4xl);
 }
 
 body {
@@ -67,9 +70,7 @@ svg {
 
 button {
   display: inline-block;
-  padding: 0;
-  border: none;
-  background: none;
+  padding: 0;  
   cursor: pointer;
 }
 
@@ -80,3 +81,30 @@ a {
 li {
   list-style: none;
 }
+
+
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  h1 {
+  font-size: var(--size-5xl);
+}
+}
+
+/* lg */
+@media (min-width: 1024px) {
+   h1 {
+  font-size: var(--size-6xl);
+  max-width: 400px;
+  line-height: 1.5;
+}
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

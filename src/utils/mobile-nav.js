@@ -10,7 +10,7 @@ const mobileNav = () => {
   menu.addEventListener("click", () => {
     isMobileNavOpen = !isMobileNavOpen;
     if (isMobileNavOpen) {
-      mobileNavigation.style.top = "10%";
+      mobileNavigation.style.top = "9%";
     } else {
       mobileNavigation.style.top = "-100%";
     }

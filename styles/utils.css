@@ -16,12 +16,35 @@
 /* 2xl */
 /* @media (min-width: 1536px) {} */
 
+
+
 .container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+/* Button */
+.btn {
+  font-family: var(--font-family-headings);
+  display: inline-block;
+  border: 2px solid rgb(15, 23, 42);
+  font-size: var(--size-sm);
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--color-dark-blue);
+  padding: 1em 2em;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(15, 23, 42);
+  color: rgb(255, 255, 255);
+  transform: translateY(-3px);
 }
 
 .grid-4-cols {
@@ -94,9 +117,3 @@
   }
 }
 
-/* 2xl */
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
