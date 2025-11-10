@@ -1,6 +1,9 @@
 import "../styles/modern-normalize.css";
 import "../styles/style.css";
+import "../styles/components/header.css";
 import "../styles/utils.css";
 
 import script from "./utils/script";
+import mobileNav from "./utils/mobile-nav";
 script();
+mobileNav();

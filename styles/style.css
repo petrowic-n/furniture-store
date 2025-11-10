@@ -8,7 +8,8 @@
   /* colors */
   --color-white: rgb(255, 255, 255)
   --color-dark-blue: rgb(15, 23, 42);
-  --color-gray: rgb(69, 79, 94);
+  --color-gray: rgb(58, 58, 58);
+  --color-gray-100: rgb(69, 79, 94);
   --color-rose: rgb(167, 16, 82);
   --color-blue: rgb(58, 166, 185);
   --color-border: rgb(221, 221, 221);
@@ -74,4 +75,8 @@ button {
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }

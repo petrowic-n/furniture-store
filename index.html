@@ -12,7 +12,55 @@
     />
   </head>
   <body>
-    <header></header>
+    <!-- Navbar -->
+    <header class="header">
+      <div class="container">
+        <!-- logo -->
+        <a href="#home" class="logo">
+          <img src="/logo.png" alt="logo" width="182" height="36" />
+        </a>
+        <!-- nav links -->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#">All Products</a></li>
+            <li><a class="nav__link" href="#">About Us</a></li>
+            <li><a class="nav__link" href="#">My Account</a></li>
+          </ul>
+        </nav>
+        <!-- cart -->
+        <div class="header__cart">
+          <span id="cart__price" class="cart__price">$0.00</span>
+          <div class="cart__wrapper">
+            <div class="item-count">
+              <span id="item-count">0</span>
+            </div>
+            <i class="ri-shopping-cart-fill cart"></i>
+          </div>
+        </div>
+
+        <!-- menu icon -->
+        <div class="menu__icon">
+          <i class="ri-menu-line menu"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile__list">
+          <li class="mobile__li">
+            <a class="mobile__links" href="#">All Products</a>
+          </li>
+          <li class="mobile__li">
+            <a class="mobile__links" href="#">About Us</a>
+          </li>
+          <li class="mobile__li">
+            <a class="mobile__links" href="#">My Account</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <main>
       <!-- Hero Section -->
       <section id="home"></section>
