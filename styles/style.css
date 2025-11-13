@@ -49,6 +49,11 @@ h1 {
   font-size: var(--size-4xl);
 }
 
+h2 {
+  color: rgb(15, 23, 42);
+  font-size: var(--size-3xl);
+}
+
 body {
   font-family: var(--font-family-text);
   background-color: var(--color-white);
@@ -66,6 +71,7 @@ svg {
   display: block;
   max-width: 100%;
   user-select: none;
+  height: auto;
 }
 
 button {
@@ -92,6 +98,10 @@ li {
   h1 {
   font-size: var(--size-5xl);
 }
+
+h2 {
+  font-size: var(--size-4xl);
+}
 }
 
 /* lg */
@@ -100,6 +110,10 @@ li {
   font-size: var(--size-6xl);
   max-width: 400px;
   line-height: 1.5;
+}
+
+h2 {
+  font-size: var(--size-5xl);
 }
 }
 

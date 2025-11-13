@@ -16,8 +16,6 @@
 /* 2xl */
 /* @media (min-width: 1536px) {} */
 
-
-
 .container {
   width: 100%;
   margin-left: auto;
@@ -47,6 +45,10 @@
   transform: translateY(-3px);
 }
 
+.section-gap {
+  padding-top: 4rem;
+}
+
 .grid-4-cols {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -66,6 +68,7 @@
   object-fit: cover;
   transition: transform 0.5s ease;
 }
+
 .card__img:hover {
   transform: rotateX(5deg) rotateY(5deg) scale(1.05);
 }
@@ -116,4 +119,3 @@
     max-width: 1280px;
   }
 }
-

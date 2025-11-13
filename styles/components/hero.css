@@ -5,6 +5,7 @@
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-inline: 0.5rem;
 }
 
 .hero__img {

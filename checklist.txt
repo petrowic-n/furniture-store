@@ -54,9 +54,9 @@ Home
 
 CHECKLIST
 
- Header/nav with logo, links, cart icon
+ ✅Header/nav with logo, links, cart icon
 
- Hero banner with headline + CTA
+ ✅Hero banner with headline + CTA
 
  Featured collection section (e.g., Chair, Modern)
 
