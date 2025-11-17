@@ -58,7 +58,7 @@ CHECKLIST
 
  ✅Hero banner with headline + CTA
 
- Featured collection section (e.g., Chair, Modern)
+ ✅Featured collection section (e.g., Chair, Modern)
 
  Benefits/trust section (icons + text)
 
