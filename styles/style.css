@@ -52,6 +52,7 @@ h1 {
 h2 {
   color: rgb(15, 23, 42);
   font-size: var(--size-3xl);
+  text-align: center;
 }
 
 body {
